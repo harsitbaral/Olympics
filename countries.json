@@ -1,0 +1,58 @@
+{
+    "United States": {
+        "name": "United States",
+        "gold": 12,
+        "silver": 10,
+        "bronze": 13,
+        "flag": "assets/flags/us.png",
+        "abbreviation": "US"
+    },
+    "Great Britain": {
+        "name": "Great Britain",
+        "gold": 5,
+        "silver": 9,
+        "bronze": 1,
+        "flag": "assets/flags/gb.png",
+        "abbreviation": "GB"
+    },
+    "Ivory Coast": {
+        "name": "Ivory Coast",
+        "gold": 5,
+        "silver": 9,
+        "bronze": 1,
+        "flag": "assets/flags/ic.png",
+        "abbreviation": "IC"
+    },
+    "Nepal": {
+        "name": "Nepal",
+        "gold": 5,
+        "silver": 9,
+        "bronze": 1,
+        "flag": "assets/flags/ne.png",
+        "abbreviation": "NE"
+    },
+    "China": {
+        "name": "Great Britain",
+        "gold": 5,
+        "silver": 9,
+        "bronze": 1,
+        "flag": "assets/flags/cn.png",
+        "abbreviation": "CN"
+    },
+    "Vietnam": {
+        "name": "Great Britain",
+        "gold": 5,
+        "silver": 9,
+        "bronze": 1,
+        "flag": "assets/flags/gb.png",
+        "abbreviation": "VT"
+    },
+    "Mexico": {
+        "name": "Great Britain",
+        "gold": 5,
+        "silver": 9,
+        "bronze": 1,
+        "flag": "assets/flags/gb.png",
+        "abbreviation": "MX"
+    }    
+}
