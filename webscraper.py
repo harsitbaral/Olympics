@@ -25,19 +25,12 @@ browser.get(url)
 countries = {}
 
 names = browser.find_elements_by_class_name("playerTag")
-golds = []
-silvers = []
-bronzes = []
 data = browser.find_elements_by_css_selector("td")
 
 loading = loading_font.render(f"Loading...", True, "white")
 
 def generate_data():
     global countries, loading
-    for name in names:
-        if name.text != "":
-            new_abbreviation = ''.join([l for l in name.text if l not in ['a', 'i', 'e', 'o', 'u']])
-            countries[f"{name.text}"] = {"name": name.text, "abbreviation": new_abbreviation[0:1], "gold": 0, "silver": 0, "bronze": 0}
 
     for i in range(len(data)):
         if data[i].text != "":
